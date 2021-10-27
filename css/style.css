@@ -2,7 +2,8 @@
 /* does this even work?? need to color background  */
 body {
     font-family: "Alegreya Sans SC", serif;
-    background-image: url('../images/concrete_seamless.png'), #f1f1f1; 
+    background-image: url('../images/concrete_seamless.png');
+    background-color: #523737; 
 }
 
 header {
@@ -172,7 +173,7 @@ header {
         display: none; /* or visibility hidden ??? */
     }
 
-    nav > li {
+    nav li {
         list-style-type: none;
     }
 
