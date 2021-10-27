@@ -124,7 +124,8 @@ header {
 @media print {
 
     body {  /* this isn't working? need to color body background */
-        background-image: none, #f1f1f1;
+        background-image: none;
+        background-color: #f1f1f1; 
         font-family: serif;
     }
 
