@@ -9,8 +9,8 @@ body {
 header {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
+    flex-direction: column;
 }
 
 .nav_links {
@@ -25,9 +25,7 @@ header {
 }
 
 .card {
-    display: flex;
     flex-basis: 450px;
-    flex-flow: column wrap;
 }
 
 .pricing {
@@ -82,11 +80,9 @@ header {
 @media screen and (min-width: 850px) {
 
     header {
-        display: flex;
         flex-direction: row;
         align-content: flex-start;
         justify-content: space-between;
-        flex-wrap: wrap;
         left: 0;
         right: 0;
     }
@@ -104,9 +100,7 @@ header {
     }
 
     .card {
-        display: flex;
         flex-basis: 250px;
-        align-items: center; /* ? */
     }
 
     .pricing {
@@ -146,7 +140,6 @@ header {
 
     nav {
         width: 100%;
-        /* remove thumbs up !! */
     }
 
     .nav_links {
@@ -163,10 +156,8 @@ header {
     }
 
     .card {
-        display: flex;
         border: 2px solid #45ADAD;
         flex-basis: 250px;
-        flex-wrap: nowrap;
     }
 
     .gallery, #gallery {
